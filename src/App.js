@@ -1,6 +1,7 @@
 import './App.css';
 import CardShrol from './components/CardShrol';
 import CardNaumets from './components/CardNaumets';
+import CardLytvak from './components/CardLytvak';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <h2>Список студентів</h2>
         <hr/>
          <CardNaumets/>
+        <hr/>
+        <CardLytvak/>
         {/* карти студентів */}
 
 
